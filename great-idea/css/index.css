@@ -316,16 +316,10 @@ body {
 
 /*Header Styles*/
 header {
-  border: 1px solid black;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 100px;
-}
-
-nav,
-.logo-container {
-  border: 1px solid black;
 }
 
 nav {
@@ -358,8 +352,7 @@ nav a {
 /*Hero Area styles*/
 .hero-area {
   display: flex;
-  justify-content: center;
-  border: 1px solid black;
+  justify-content: space-between;
   width: 100%;
   height: 450px;
   margin-bottom: 50px;
@@ -368,8 +361,7 @@ nav a {
 .title,
 .hero-image {
   display: flex;
-  border: 1px solid black;
-  width: 45%;
+  width: 48%;
   height: 450px;
 }
 
@@ -406,7 +398,6 @@ nav a {
 .top-section,
 .bottom-section {
   display: flex;
-  border: 1px solid black;
   font-size: 1.5em;
 }
 
@@ -417,7 +408,6 @@ nav a {
 
 .top-section div {
   width: 45%;
-  border: 1px solid black;
 }
 
 .details-image img {
@@ -444,7 +434,6 @@ nav a {
 
 /*footer styles*/
 footer {
-  border: 1px solid black;
   margin: 50px 0;
   text-align: center;
   display: flex;
@@ -452,7 +441,6 @@ footer {
 }
 
 footer p {
-  border: 1px solid black;
   width: 25%;
   font-weight: 700;
 }
@@ -461,19 +449,14 @@ footer p {
 
 /*service hero area styles*/
 .service-hero-area {
-  border: 1px solid black;
-}
-
-.service-hero-area figure {
-  margin-bottom: 50px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .service-hero-area figure img {
   width: 100%;
-}
-
-.services {
-  border: 1px solid black;
 }
 
 .services h1 {
@@ -488,7 +471,6 @@ footer p {
 
 /*specialties styles here*/
 .specialties {
-  border: 1px solid black;
   height: 850px;
   display: flex;
   flex-wrap: wrap;
@@ -498,7 +480,7 @@ footer p {
 }
 
 .specialties div {
-  border: 1px solid black;
+  border: 3px solid black;
   width: 48%;
   padding: 2%;
   font-size: 1.1rem;
@@ -506,6 +488,7 @@ footer p {
 
 .specialties div p {
   margin-bottom: 30px;
+  letter-spacing: 1px;
 }
 
 .specialties button {
@@ -514,4 +497,37 @@ footer p {
   width: 30%;
   font-size: 0.7rem;
   font-weight: 600;
+}
+
+/*facts-section styles here*/
+.facts {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.facts div,
+.facts figure {
+  width: 48%;
+  font-size: 1.1rem;
+}
+
+.facts div h2,
+.facts div p {
+  margin-bottom: 20px;
+}
+
+.facts div ul {
+  list-style-type: square;
+  list-style-position: inside;
+  font-size: 1rem;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.facts figure img {
+  width: 100%;
 }
