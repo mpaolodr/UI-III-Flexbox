@@ -531,3 +531,77 @@ footer p {
 .facts figure img {
   width: 100%;
 }
+
+/*Media Queries*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /*GENERAL STYLES*/
+  .main-container {
+    width: 90%;
+  }
+
+  /*HEADER STYLES*/
+
+  header {
+    flex-direction: column-reverse;
+    height: 100px;
+    justify-content: space-evenly;
+  }
+
+  nav {
+    width: 80%;
+  }
+
+  /*HERO AREA STYLES*/
+
+  .hero-area {
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+  }
+
+  .title h1 {
+    margin-bottom: 100px;
+  }
+
+  /*DETAILS SECTION STYLES*/
+  .top-section {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+  }
+
+  .top-section div {
+    width: 100%;
+  }
+
+  .bottom-section {
+    flex-direction: column;
+    height: 400px;
+  }
+
+  .bottom-section div {
+    width: 100%;
+  }
+
+  /*SERVICES PAGE STYLES*/
+
+  /*SPECIALTIES STYLES*/
+  .specialties {
+    height: 1300px;
+  }
+
+  .specialties div {
+    width: 100%;
+  }
+
+  .facts {
+    flex-direction: column;
+    height: 900px;
+  }
+
+  .facts div,
+  .facts figure {
+    width: 100%;
+  }
+}
