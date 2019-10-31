@@ -597,11 +597,25 @@ footer p {
 
   .facts {
     flex-direction: column;
-    height: 900px;
+    height: 950px;
+    justify-content: space-between;
   }
 
   .facts div,
-  .facts figure {
+  .facts figure,
+  .facts div h2,
+  .facts div p {
     width: 100%;
+  }
+
+  .facts div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .facts div ul {
+    width: 20%;
   }
 }
