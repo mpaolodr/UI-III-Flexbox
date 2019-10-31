@@ -458,3 +458,60 @@ footer p {
 }
 
 /*Services page styles*/
+
+/*service hero area styles*/
+.service-hero-area {
+  border: 1px solid black;
+}
+
+.service-hero-area figure {
+  margin-bottom: 50px;
+}
+
+.service-hero-area figure img {
+  width: 100%;
+}
+
+.services {
+  border: 1px solid black;
+}
+
+.services h1 {
+  font-size: 2rem;
+}
+
+.services p {
+  letter-spacing: 1px;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+/*specialties styles here*/
+.specialties {
+  border: 1px solid black;
+  height: 850px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.specialties div {
+  border: 1px solid black;
+  width: 48%;
+  padding: 2%;
+  font-size: 1.1rem;
+}
+
+.specialties div p {
+  margin-bottom: 30px;
+}
+
+.specialties button {
+  padding: 5px;
+  border-radius: 5px;
+  width: 30%;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
