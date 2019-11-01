@@ -601,10 +601,7 @@ footer p {
     justify-content: space-between;
   }
 
-  .facts div,
-  .facts figure,
-  .facts div h2,
-  .facts div p {
+  .facts .full-width {
     width: 100%;
   }
 
